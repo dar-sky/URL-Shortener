@@ -37,3 +37,6 @@ Follow the steps below to run the URL Shortener application locally.
 Once both the client and server are running, you can access the URL Shortener application by opening your web browser and visiting `http://localhost:3000`.
 
 That's it! You now have the URL Shortener application up and running locally on your machine.
+
+
+![URL-Shortener](https://github.com/pk-verma890/URL-Shortener/assets/84175560/4f00a697-9433-4345-90f1-630040315941)
