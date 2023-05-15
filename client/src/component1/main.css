@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+    min-height: 100vh; /* Adjust this value as needed */
+    width: 100%;
+    background: url('12.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust the width as desired */
+    max-width: 400px; /* Set a maximum width to prevent the form from becoming too wide */
+    height: 80%;
+    max-height: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 255, 255, 0.568);
+    border-radius: 10px;
+}
+
+
+.login-box p:first-child {
+    margin: 0 0 15px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 8px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: aqua;
+    font-size: 8px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    color: aqua;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    border-radius: 20%;
+}
+
+.login-box a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 24px 0;
+}
+a:hover .login-box {
+    box-shadow: 0 0 24px 0 rgba(0, 255, 255, 0.404);
+}
